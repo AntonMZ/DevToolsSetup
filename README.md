@@ -1,1 +1,2 @@
-# InitSetup
+ - [Centos](Centos/README.md)
+ - [MacOS](MacOS/README.md)
