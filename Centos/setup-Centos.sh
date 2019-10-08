@@ -1,4 +1,4 @@
-
-
-yum -y install epel-release
-yum install ShellCheck
+yum install epel-release -y
+yum update
+yum install htop
+yum install ShellCheck -y
