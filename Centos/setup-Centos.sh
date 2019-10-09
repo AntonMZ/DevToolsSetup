@@ -19,17 +19,17 @@ SELINUXTYPE=targeted" > /etc/sysconfig/selinux
 # Установка Nginx
 ########################################
 
-echo "[nginx]
+echo '[nginx]
 name=nginx repo
 baseurl=https://nginx.org/packages/mainline/centos/7/$basearch/
 gpgcheck=0
-enabled=1" > /etc/yum.repos.d/nginx.repo
+enabled=1' > /etc/yum.repos.d/nginx.repo
 
-echo "[unit]
+echo '[unit]
 name=unit repo
 baseurl=https://packages.nginx.org/unit/centos/$releasever/$basearch/
 gpgcheck=0
-enabled=1" > /etc/yum.repos.d/unit.repo
+enabled=1' > /etc/yum.repos.d/unit.repo
 
 ########################################
 # Подключение репозитория Epel
