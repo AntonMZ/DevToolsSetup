@@ -32,9 +32,9 @@ gpgcheck=0
 enabled=1' > /etc/yum.repos.d/unit.repo
 
 ########################################
-# Подключение репозитория Epel
+# Подключение репозитория Epel & RemiCollect
 ########################################
-yum install epel-release -y
+dnf install epel-release remi-release.noarch -y
 
 ########################################
 # Обновление системы до актуального состояния
@@ -44,10 +44,4 @@ yum update
 ########################################
 # Установка необходимых пакетов
 ########################################
-yum install wget htop ShellCheck nginx -y 
-
-########################################
-# Установка Nginx Unit
-########################################
-yum install unit -y 
-yum install unit-devel unit-go unit-jsc8 unit-perl unit-php unit-python
+yum install wget.x86_64 htop.x86_64 ShellCheck nginx.x86_64 -y 
