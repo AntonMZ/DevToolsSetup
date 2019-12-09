@@ -45,3 +45,13 @@ yum update
 # Установка необходимых пакетов
 ########################################
 yum install wget.x86_64 htop.x86_64 ShellCheck nginx.x86_64 -y 
+
+bind-utils
+netstat
+netstat
+traceroute
+net-tools
+
+iptables-services.x86_64
+git
+htop
